@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(25, 42, 81);
+  }
+  #img{
+    width: 250px;
+  }
+  .box{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .continer{
+    width: 249px;
+    height: 454px;
+    padding: 16px;
+    border-radius: 15px;
+    background-color: rgb(38, 50, 86);
+  }
+  #second{
+    width: 20px;
+    margin: 0px;
+    border: 1px solid white;
+    border-radius: 28px;
+    width: 34px;
+    justify-content: space-evenly;
+    margin-right: 19px;
+  }
+  .inside{
+    color: white;
+  }
+  #our{
+    color: rgb(134 144 153);
+  }
+  #price{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    color: rgba(24, 239, 239, 0.644);
+  }
+  #last{
+    padding-top: 9px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .time{
+    color: rgb(134 144 153);
+    font-size: 17px;
+  }
+  small{
+    font-size: 17px;
+    padding-left: 9px;
+  }
+  span{
+    color: rgb(212, 209, 209);
+    padding-left: 6px;
+  }
+
+  .inside:hover{
+    color: rgba(24, 239, 239, 0.644);
+  }
+  span:hover{
+    color: rgba(24, 239, 239, 0.644);
+  }
+  #img:hover{
+    filter: blur(2px);
+  }
